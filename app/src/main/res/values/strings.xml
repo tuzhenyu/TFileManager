@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">TFileManager</string>
+
+    <string name="none_file">还没有文件</string>
+    <string name="none_dir">目录为空</string>
+    <string name="move_to">移动到</string>
+    <string name="save_to">保存到</string>
+    <string name="please_choose_dir">请选择目录</string>
+    <string name="if_delete_this_file">是否删除该文件</string>
+    <string name="has_choose_alert">已选择 %1$s</string>
+    <string name="has_choose_file_alert">已选择 %1$s 个文件</string>
+    <string name="file_selected_count_limit_waring">最多选择%1$d个文件</string>
+    <string name="file_save_db_error">文件信息无法存入本地数据库</string>
+    <string name="file_no_found">未找到可上传文件</string>
+    <string name="local_file_dir_is_empty">目录为空</string>
+    <string name="file_size_zero_warnning">存在大小为0的文件，无法处理</string>
+    <string name="sdcard_nomounted_warning">无法读取SD卡</string>
+    <string name="path_unreachable">目标不存在或者不可读</string>
+    <string name="file_unreachable">文件不存在或者不可读</string>
+    <string name="file_select_all">全选</string>
+    <string name="file_un_select_all">全不选</string>
+    <string name="sinagle_file_invaild_type_warring">不支持此文件格式</string>
+    <string name="all_files_invaild_type_warring">不支持这些文件格式</string>
+    <string name="file_no_exist_wranning">文件不存在</string>
+    <string name="root_path">内部存储空间</string>
+</resources>

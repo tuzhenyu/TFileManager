@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="match_parent">
+
+   <android.support.v7.widget.Toolbar
+       android:id="@+id/toolbar"
+       android:layout_height="?attr/actionBarSize"
+       android:layout_width="match_parent"
+       android:background="@android:color/black"
+       >
+
+   </android.support.v7.widget.Toolbar>
+
+   <!--<TextView
+       android:id="@+id/tv_top_tip"
+       android:layout_width="match_parent"
+       android:layout_height="36dp"
+       android:gravity="center"
+       android:background="#322a33"
+       android:textColor="#ffffff"
+       />-->
+
+
+   <FrameLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+      <FrameLayout
+          android:id="@+id/content_frame"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"/>
+
+      <TextView
+          android:id="@+id/tx_empty_hint"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:textSize="16sp"
+          android:gravity="center"
+          android:background="@android:color/white"
+          android:text="没有文件..."
+          android:textColor="@android:color/darker_gray"
+          android:visibility="gone"
+          />
+
+   </FrameLayout>
+
+
+   
+   
+   
+</LinearLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/file_container"
+    android:layout_width="wrap_content"
+    android:layout_height="61dp"
+    >
+
+        <CheckBox
+            android:id="@+id/check_choose"
+            style="@style/CheckStyle.CheckOrange"
+            android:clickable="false"
+            android:focusable="false"
+            android:layout_marginLeft="11dp"
+            android:layout_centerVertical="true"
+            />
+
+    <ImageView
+        android:id="@+id/img_file_type"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:scaleType="fitXY"
+        android:layout_toRightOf="@id/check_choose"
+        android:layout_marginRight="11dp"
+        android:layout_marginLeft="11dp"
+        />
+
+    <FrameLayout
+        android:id="@+id/frame_right_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:layout_centerVertical="true"
+        >
+    </FrameLayout>
+
+
+    <TextView
+        android:id="@+id/txt_file_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/img_file_type"
+        android:layout_toLeftOf="@id/frame_right_container"
+        android:textColor="#000000"
+        android:singleLine="true"
+        android:textSize="16dp"
+        android:ellipsize="middle"
+        />
+
+    <ImageView
+        android:id="@+id/img_line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#dfdfdf"
+        android:layout_toRightOf="@id/img_file_type"
+        android:layout_alignParentBottom="true"
+        />
+
+    <ImageView
+        android:id="@+id/img_line_not_margin"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#dfdfdf"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"
+        />
+
+</RelativeLayout>
